@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question Two</title>
+        <link rel="stylesheet" href="styleTwo.css">
+        <script defer src="scriptTwo.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <label>Enter number of squares to display
+              <input type="number" name="number" id="numberId">
+            </label>
+            <div class="button">
+              <input type="submit" value="display squares" onclick="displaySquares(
+                      document.getElementById('numberId').value
+              )">
+            </div>
+        </div>
+    </body>
+</html>
